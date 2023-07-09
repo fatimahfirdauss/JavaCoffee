@@ -5,7 +5,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-image: url(Images/LoginBack.jpg)	;
+      background-image: url(image/LoginBack.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       display:flex;
@@ -13,7 +13,7 @@
       justify-content: center;
       height: 100vh;
       margin: 0;
-      backgournd-color: #E59866;
+      background-color: #E59866;
     }
     
     .container {
@@ -70,7 +70,7 @@
 <body>
   <div class="container">
     <div class="logo">
-      <img src="Images\Logo.png" alt="Logo">
+      <img src="image\logo icon.png" alt="Logo">
       <h1>String "Coffee Place"</h1>
     </div>
     <form>
