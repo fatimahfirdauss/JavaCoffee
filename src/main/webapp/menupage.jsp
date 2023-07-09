@@ -30,7 +30,7 @@
 					<i class='bx bxs-package' ></i>
 					<span class = "nav-item">Stock</span>
 				</a></li>
-				<li><a href = "#">
+				<li><a href = "menupage.jsp">
 					<i class='bx bx-book-open' ></i>
 					<span class = "nav-item">Menu</span>
 				</a></li>
