@@ -61,7 +61,7 @@
 						<i class='bx bx-money-withdraw'></i>
 						<span class = "nav-item">Sales</span>
 					</a></li>
-					<li><a href = "#">
+					<li><a href = "Stock_Admin">
 						<i class='bx bxs-package' ></i>
 						<span class = "nav-item">Stock</span>
 					</a></li>
