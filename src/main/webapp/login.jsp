@@ -87,14 +87,14 @@
       <img src="image\logo icon.png" alt="Logo">
       <h1>String "Coffee Place"</h1>
     </div>
-    <form method = "post" action = "../Login.java">
+    <form method = "post" action = "Login.java">
       <div class="form-group">
         <label for="username">Username:</label>
-        <input type="text" id="name" name="name" placeholder="Enter Name">
+        <input type="text" id="name" name="name" placeholder="Enter username">
       </div>
       <div class="form-group">
         <label for="password">Password:</label>
-        <input type="password" id="password" name="password" placeholder="password">
+        <input type="password" id="password" name="password" placeholder="Enter password">
       </div>
       <div class="form-group">
       	<a href = "homepage.jsp">

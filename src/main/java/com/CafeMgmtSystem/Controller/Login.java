@@ -1,6 +1,8 @@
 package com.CafeMgmtSystem.Controller;
 
 import java.io.IOException;
+import java.io.PrintWriter;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -29,6 +31,23 @@ public class Login extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
+		PrintWriter out = response.getWriter();
+		String name = request.getParameter("name");
+		String password = request.getParameter("password");
+		
+		User user = new User();
+		user.setEmail(name);
+		user.setPassword(password);
+		
+		userDB ud = new userDB();
+		String s1 = ud.readData(user);
+		
+		if(s1.equalsIgnoreCase("success")) {
+			response.sendRedirect("http://localhost:8080/JavaWebApplication/jsp/homepage.jsp");
+		}else {
+			out.println("Invalid Email or Password");
+		}
+		
 	}
 
 	/**
@@ -37,20 +56,6 @@ public class Login extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);
-		String name = request.getParameter("name");
-		String email = request.getParameter("email");
-		String password = request.getParameter("password");
-		
-		User rb = new User();
-		
-		rb.setName(name);
-		rb.setEmail(email);
-		rb.setPassword(password);
-		
-		userDB ud = new userDB();
-		String s1 = ud.insertUser(rb);
-		
-		System.out.println(s1);
 	}
 
 }
