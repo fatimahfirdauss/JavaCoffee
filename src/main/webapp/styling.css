@@ -13,25 +13,64 @@
 
 body{
 	background: #e2d4c5; /* set background color */
-	
 }
-
-table{
-	
-	font-size: 20px;
+/* --- title & text ---*/
+h1{
+	font-size: 40px;
 	padding: 20px;
-	margin-left: 70px;	
-	
+	margin-left: 70px;
 }
 
 h2{
-	font-size: 40px;
-	padding: 20px;
-	margin-left: 70px;	
+	font-size: 30px;
+	text-align: center;
 }
 
-/* --- Sidebar --- */
+p{
+	font-size: 20px;
+}
 
+th{
+	font-size: 23px;
+	padding: 25px;
+}
+/* --- title & text ---*/
+/* --- user details ---*/
+.user-info{
+	display: flex;
+	justify-content: space-around;
+}
+
+.personal-details{
+	background-color: #DC6A34;
+	border-radius: 10px;
+}
+
+.profile-image{
+	background-color: #DF9789;
+	justify-content: center;
+	border-radius: 15px;
+	border: solid 5px #1CD2D8;
+}
+.profile-picture{
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	max-height: 500px;
+	max-width: 300px;
+	padding: 30px;
+	right: 100px;
+}
+/* --- user details ---*/
+/* --- Schedule ---*/
+.table{
+	display: flex;
+	justify-content: center;
+	background-color: #DF9788;
+	
+}
+/* --- Schedule ---*/
+/* --- Sidebar --- */
 nav{
 	position: absolute;
 	top: 0; /* jarak at top part */
@@ -81,3 +120,4 @@ nav:hover{
 	position: absolute;
 	bottom: 0;
 }
+/* --- Sidebar --- */
