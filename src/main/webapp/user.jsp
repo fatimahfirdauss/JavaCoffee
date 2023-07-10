@@ -3,14 +3,15 @@
 <head>
   <title>User Page</title>
   <link rel="icon" type="image/favicon" href="images/logo icon.png"> 
-  <link rel="stylesheet" href="styling.css">
+  <link rel="stylesheet" href="userstyle.css">
 	<!-- Box icons -->
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 	
 <body>
+	<h1>Personal Information</h1>
 <div class="content">
- 	  	<h1>Personal Information</h1>
+
     <div class="user-info">
     	<div class="profile-image">
     		<div>

@@ -1,0 +1,7 @@
+INDEX VERSION 1.132+C:\Users\User\Desktop\JavaCoffee\.metadata\.plugins\org.eclipse.jdt.core
+1140661257.index
+3593505845.index
+1094415605.index
+2957629607.index
+337203849.index
+1865797976.index
