@@ -87,17 +87,19 @@
       <img src="image\logo icon.png" alt="Logo">
       <h1>String "Coffee Place"</h1>
     </div>
-    <form>
+    <form method = "post" action = "../Login.java">
       <div class="form-group">
         <label for="username">Username:</label>
-        <input type="text" id="username" name="username" placeholder="username">
+        <input type="text" id="name" name="name" placeholder="Enter Name">
       </div>
       <div class="form-group">
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" placeholder="password">
       </div>
       <div class="form-group">
+      	<a href = "homepage.jsp">
         <button type="submit">Login</button>
+        </a>
       </div>
     </form>
   </div>
